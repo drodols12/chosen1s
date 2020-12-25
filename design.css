@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;  
+    margin-top: 20px;
+    background-color: pink;
+    height: 100vh;
+    justify-content: center;
+}
+
+/*order Form*/
+
+.orderForm{
+    position: relative;
+    width: 800px;
+    height: 90%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.orderForm h1{
+    margin: 20px 0;
+    color: rgb(206, 0, 171);
+    font-family: "";
+}
+
+ul.cakeTypes{
+    margin: 0 20px;
+    display: flex;
+    height: 30px;
+    
+    justify-content: space-between;
+}
+
+li.cakes{
+    list-style: none;
+    background-color: rgb(255, 144, 246);
+    width: 110px;
+    margin-bottom: 0px;
+    transition: all .2s ease;
+    border-radius: 10px;
+}
+
+li.cakes h3{
+    margin-top: 4px;
+    color: rgb(206, 0, 171);
+}
+li.cakes:hover{
+    color: rgb(255, 0, 221);
+    cursor: pointer;
+    border-bottom: solid 5px rgb(158, 0, 92);
+}
+li.cakes:hover h3{
+    transform:translateY(-3px);
+}
+
+/*Round Cakes*/
+
+.roundCakes{
+    display: none;
+    position: absolute;
+    top: 130px;
+    left: 125px;
+    width: 70%;
+    height: 75%;
+    box-shadow:4px 15x  px 5px hsl(0, 0%, 53%);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+ul.roundC{
+    display: block;
+    margin:10px 10px;
+    
+}
+li.rCakes{
+    display: flex;
+    width: 480px;
+    height: 40px;
+    margin:7px 30px;
+
+    align-content: center;
+}
+
+.sizes{
+    margin-left: 340px;
+    font-size: 2rem;
+}
+
+.sizes1{
+    margin: 40px 0px 40px 22px;
+    font-size: 25px;
+}
+
+li.rCakes h4, input, p{
+    align-self: center;
+    font-size: 15px;
+}
+
+h4{
+    transition: all .6s ease;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#mocba{
+    margin-left: 185px;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+
+
+#mb1{
+    margin-left: 170px;
+}
+.chocs{
+    margin-right: 58px;
+}
+.uyy{
+    margin-right: 62px;
+}
+.mochaa{
+    margin-right: 86px;
+}
+.mcc{
+    margin-right: 42px;
+}
+.sanss{
+    margin-right: 70px;
+}
+
+.lowerSide{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy{
+    width: 120px;
+    height: 40px;
+    margin-left: 50px;
+    font-family: "Montserrat" ;
+    background-color: pink;
+}
+
+.reset{
+    width: 120px;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 80px;
+    font-family: "Montserrat" ;
+    background-color: pink;
+    
+}
+
+.quantity{
+    display: none;
+    margin-right: 85px;
+    margin-bottom: 20px;
+    transition: all 1s ease;
+}
+
+.quantity h4{
+    margin-bottom: 10px;
+}
+
+.quantity input{
+    width: 70px;   
+    text-align: center;
+}
+
+.rCakes:hover h4{
+    cursor: pointer;
+    transform:translateX(20px)
+}
+
+
+
+
+/*Roll Cakes*/
+.rollCakes{
+    display: none;
+    position: absolute;
+    top: 130px;
+    left: 125px;
+    width: 70%;
+    height: 70%;
+    box-shadow:4px 15x  px 5px #888888;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+ul.rollC{
+    display: block;
+    margin:10px 10px;
+    
+}
+li.roCakes{
+    display: flex;
+    width: 480px;
+    height: 40px;
+    margin:40px 30px;
+
+    align-content: center;
+}
+
+.size{
+    margin-left: 360px;
+    font-size: 20px;
+}
+li.roCakes h4, input, p{
+    align-self: center;
+    font-size: 15px;
+}
+
+#mbb{
+    margin-left: 185px;
+}
+
+#mbb1{
+    margin-left: 280px;
+}
+
+.ub{
+    margin-right: 41px;
+}
+
+
+.details{
+    display: block;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.details form{
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 125px;
+    width: 70%;
+    height: 70%;
+    box-shadow:4px 15x  px 5px #888888;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.details form ul{
+    display: block;
+    margin:10px 10px;
+}
+
+
+.details form ul li{
+    list-style: none;
+    display: flex;
+    width: 480px;
+    height: 40px;
+    margin: 40px 30px 30px ;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.details form ul li label{
+    align-self: center;
+    margin-left: 50px;
+}
+.details form ul li input{
+    margin-right: 70px;
+}
+
+
+@media screen and (max-width: 700px){
+    ul.cakeTypes{
+        display: inline-block;
+      
+    }
+
+    ul li.cakes{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        height: 60px;
+    }
+
+  
+    .roundCakes{
+        display: none;
+
+    }
+
+    .lowerSide{
+        display: none;
+    }
+
+}
